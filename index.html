@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="overallContainer">
+        <div class="textContainer">
+            <h1>Blackjack</h1>
+            <label>Money</label>
+            <h4 id="moneyAmount">2500</h4>
+
+            <div class="row">
+                <div class="Your">
+                    <label>Your Sum: &nbsp;</label>
+                    <h3 id="display">0</h3>
+                </div>
+                <div class="Dealer">
+                    <label> Dealer's Sum: &nbsp;</label>
+                    <h3 id="dealerDisplay">0</h3>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="rightContainer">
+            <h2>Important Rules/Tips</h2>
+            <p>- Total of 21 means you win!</p>
+            <p>- All face cards are worth 10 points</p>
+            <p>- You and the dealer are given two cards at the start</p>
+            <p>- You are only shown the dealer's first card so base your action on that card</p>
+            <p>- Choose whether to "HIT" &lpar;ask for another card&rpar;
+                or "STAND" &lpar;challenge the dealer&rpar; </p>
+
+        </div>
+    </div>
+        <div class="buttonContainer">
+            <button id="startButton">Start</button>
+
+            <label id="enter">Enter Bet:</label>
+            <input id="betText"/>
+            <button id="submitButton">Submit</button>
+
+            <button id="hitButton">HIT</button>
+            <button id="standButton">STAND</button>
+            <button id="resetButton">Reset</button>
+        </div>
+    
+
+    <script src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+body {
+    font-size: 1em;
+    background-color: rgb(105, 26, 26);
+}
+
+.overallContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+.textContainer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    padding-top: 40px 20px 20px 20px;
+    border: 1px solid green;
+    border-radius: 25px 0;
+}
+.Your {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    padding-left: 20px;
+}
+
+.Dealer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    padding-right: 20px;
+}
+.rightContainer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    height: 80%;
+    padding-bottom: 20px;
+}
+
+.buttonContainer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+button {
+    margin: 5%;
+    padding: 10px;
+    width: 20%;
+    height: 20%;
+    border: 1px solid green;
+    border-radius: 35px 0;
+    background-color: lightcoral;
+    font-size: large;
+
+}
+
+button:hover {
+    background-color: rgb(186, 82, 82);
+}
+
+#resetButton {
+    background-color: green;
+}
+
+#resetButton:hover {
+    background-color: rgb(3, 77, 3);
+}
+
+.buttonContainer input {
+    font-size: 15px;
+    margin: 5% 2% ;
+    padding: 10px;
+    width: 7%;
+    height: 20%;
+    border-radius: 5px;
+    border: 1px solid red;
+    background-color: white;
+}
+
+.buttonContainer label {
+    font-size: 15px;
+    margin: 5% 0;
+    padding: 10px 0 10px 10px;
+    width: 7%;
+    height: 20%;
+    border: 1px solid green;
+    background-color: white;
+}
+
+.buttonContainer h4 {
+    font-size: 15px;
+    margin: 5% 0;
+    padding: 10px 0 10px 10px;
+    width: 7%;
+    height: 20%;
+    border-radius: 50px 0px 0px 50px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.textContainer #moneyAmount {
+    border: 2px solid green;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border-radius: 15px 0;
+}
